@@ -1,0 +1,121 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container{
+    display: flex;
+}
+
+.card{
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 13px;
+}
+
+.image{
+    background-color: hsl(0, 0%, 100%);
+    width: 185px;
+    height: 185px;
+    background-size: cover;
+    background-image: url('image-equilibrium.png');
+    border-radius: 4px;
+}
+
+
+
+.head{
+    font-weight: 600;
+    font-size: 12px;
+    color: hsl(0, 0%, 100%);
+}
+
+.description{
+    color: hsl(215, 51%, 70%);
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.8em;
+}
+
+.eth{
+    display: flex;
+    color: hsl(178, 100%, 50%);
+    font-weight: 700;
+    font-size: 9px;
+    align-items: center;
+
+}
+
+.day{
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 9px;
+}
+
+.eth > img{
+    width: 6px;
+    height: 10px;
+    margin-right: 4px;
+}
+
+.day > img{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.line{
+    height: 1px;
+    background: hsl(215, 32%, 27%);
+}
+
+.creator{
+    margin: 5px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.creator > img{
+    width: 15px;
+    height: 15px;
+    border: 1px solid hsl(0, 0%, 100%); 
+    border-radius: 50%;
+
+}
+
+.name > p > span{
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.name > p{
+    font-weight: 300;
+
+    color: hsl(0, 0%, 100%);
+}
+
+.name{
+    font-size: 8px;
+    margin: 0 0 0 10px;
+}
